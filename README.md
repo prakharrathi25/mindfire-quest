@@ -99,7 +99,7 @@ We collected data of a variety of companies:
 
 ## ⚒️ Contributors 
 
-The team undertaking this project is: 
+The team members undertaking this project are: 
 
 <table>
   <tr>
