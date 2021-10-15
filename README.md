@@ -63,7 +63,7 @@ Already done and uploaded for over 1bn buildings.
 
 ##### How to Implement 
 
-T2 notebook for any object detection algorithm implementation from Tenserflow Hub.
+T2 notebook for any object detection algorithm implementation from Tensorflow Hub.
 
 - **Step 1:** Open buildings georeferencing notebook as example for the 2/3 of the continent of Africa for building detection and coordinates extraction as well as Github repos for USA&Canada
 
