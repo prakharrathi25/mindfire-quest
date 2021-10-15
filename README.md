@@ -50,7 +50,7 @@ Here's a workflow of what the solution is envisioned to look like:-
 
 This is the path that we think is possible at the moment. The following are the steps involved:
 
-1. Optional preprocessing: YOLOR or similar algorithm to identify buildings and sites in satellite visual and terrain images for higher accuracy, or via transfer learning by feeding the bounding boxes to CLIP.
+1. YOLOR or similar algorithm to identify buildings and sites in satellite visual and terrain images for higher accuracy, or via transfer learning by feeding the bounding boxes to CLIP.
 Already done and uploaded for over 1bn buildings.
 
 2. Top view: [CLIP notebook](https://github.com/prakharrathi25/mindfire-quest/blob/main/notebooks/Cement%20Factory%20Beyond%20Tags%20-%20Semantic%20Search%20on%20images%20with%20OpenAI%20CLIP%20.ipynb) to search through the sat images with buildings in it. (Crosscheck and subtract the ones already listed in the NLP Ontology)
