@@ -53,13 +53,13 @@ This is the path that we think is possible at the moment. The following are the 
 1. Optional preprocessing: YOLOR or similar algorithm to identify buildings and sites in satellite visual and terrain images for higher accuracy, or via transfer learning by feeding the bounding boxes to CLIP.
 Already done and uploaded for over 1bn buildings.
 
-2. Top view: CLIP notebook to search through the sat images with buildings in it. (Crosscheck and subtract the ones already listed in the NLP Ontology)
+2. Top view: [CLIP notebook](https://github.com/prakharrathi25/mindfire-quest/blob/main/notebooks/Cement%20Factory%20Beyond%20Tags%20-%20Semantic%20Search%20on%20images%20with%20OpenAI%20CLIP%20.ipynb) to search through the sat images with buildings in it. (Crosscheck and subtract the ones already listed in the NLP Ontology)
 
 3. Ground view: Text and/or logo detection
 
 4. Geolocation: Google Earth Engine (GEE) script for coordinates to street address or to Plus Codes 
 
-5. Optional addition: Address normalization fuzzy logic tool
+5. Optional addition: [Address normalization fuzzy logic tool](https://fuzzy-address.herokuapp.com/). 
 
 ##### How to Implement 
 
@@ -73,11 +73,18 @@ AWS cement factory detection notebook for uniquely identifying llanguage and com
 - **Step 4:** Open Buildings - [download region polygons](https://code.earthengine.google.com/?scriptPath=Examples:Datasets/GOOGLE_Research_open-buildings_v1_polygons)
 
 
-
-
 #### Happy Path 
 
-Given the availability of software and resources, this is the path we think can make our tasks easier and 
+Given the availability of software and resources, this is the path we think can make our tasks easier. 
+
+1. Top View: GoogleMUM - 
+
+2. Ground view: Text and/or logo detection
+
+3. Geolocation: GEE script for coordinates to street address  or to Plus Codes 
+
+4. Optional addition: Benefits of extension to other Swiss Re departments and use cases	
+
 							
 ## Data 
 
