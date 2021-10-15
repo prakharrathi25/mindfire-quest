@@ -68,9 +68,9 @@ T2 notebook for any object detection algorithm implementation from Tensorflow Hu
 - **Step 1:** Open buildings georeferencing notebook as example for the 2/3 of the continent of Africa for building detection and coordinates extraction as well as Github repos for USA&Canada
 
 - **Step 2:** white label phase CLIP: notebook for identifying potential company candidates 
-- **Step 3:**  White-Label phase CLIP:
-AWS cement factory detection notebook for uniquely identifying llanguage and company from text on satellite or streetview images on company buildings, entrance or outdoor objects, such as branded trucks or containers on ships or harbors.
-- **Step 4:** Open Buildings - [download region polygons](https://code.earthengine.google.com/?scriptPath=Examples:Datasets/GOOGLE_Research_open-buildings_v1_polygons)
+- **Step 3:**  White-Label phase:
+Company_detection_from_image notebook: AWS cement factory detection notebook for uniquely identifying llanguage and company from text on satellite or streetview images on company buildings, entrance or outdoor objects, such as branded trucks or containers on ships or harbors.
+- **Step 4:** GEE - [download region polygons](https://code.earthengine.google.com/?scriptPath=Examples:Datasets/GOOGLE_Research_open-buildings_v1_polygons)
 
 
 #### Happy Path 
