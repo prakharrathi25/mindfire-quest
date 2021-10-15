@@ -35,10 +35,59 @@ The following solutions are for crowdsourcing company annotations:
 
 5. E.g. via Nantic’s now open sourced lightning dev environment, or similar to Google Captchas...
 
+In sprint 2, we have developed a hybrid of all the above methods. 
+
+![](https://i.imgur.com/L40UlW5.png)
+
+Here's a workflow of what the solution is envisioned to look like:- 
+
+![](https://i.imgur.com/aKmy6Pr.png)
 
 
+### 🎯 Ways to Implement
+
+#### White-Label Path 
+
+This is the path that we think is possible at the moment. The following are the steps involved:
+
+1. Optional preprocessing: YOLOR or similar algorithm to identify buildings and sites in satellite visual and terrain images for higher accuracy, or via transfer learning by feeding the bounding boxes to CLIP.
+Already done and uploaded for over 1bn buildings.
+
+2. Top view: CLIP notebook to search through the sat images with buildings in it. (Crosscheck and subtract the ones already listed in the NLP Ontology)
+
+3. Ground view: Text and/or logo detection
+
+4. Geolocation: Google Earth Engine (GEE) script for coordinates to street address or to Plus Codes 
+
+5. Optional addition: Address normalization fuzzy logic tool
+
+##### How to Implement 
+
+T2 notebook for any object detection algorithm implementation from Tenserflow Hub.
+
+- **Step 1:** Open buildings georeferencing notebook as example for the 2/3 of the continent of Africa for building detection and coordinates extraction as well as Github repos for USA&Canada
+
+- **Step 2:** white label phase CLIP: notebook for identifying potential company candidates 
+- **Step 3:**  White-Label phase CLIP:
+AWS cement factory detection notebook for uniquely identifying llanguage and company from text on satellite or streetview images on company buildings, entrance or outdoor objects, such as branded trucks or containers on ships or harbors.
+- **Step 4:** Open Buildings - [download region polygons](https://code.earthengine.google.com/?scriptPath=Examples:Datasets/GOOGLE_Research_open-buildings_v1_polygons)
+
+
+
+
+#### Happy Path 
+
+Given the availability of software and resources, this is the path we think can make our tasks easier and 
 							
+## Data 
 
+The data has been collected from the [DnB website](https://www.dnb.com/). It scraped using a web scraper and the data can be found in folder [`data > dnb-single-page.csv`](https://github.com/prakharrathi25/mindfire-quest/tree/main/data). 
+
+We collected data of a variety of companies: 
+
+![](logos\Coop.png)
+![](logos\heidelbergcement030811.jpg)
+![](logos\Walmart_logo_blue.png)
 
 
 ## ⚒️ Contributors 
