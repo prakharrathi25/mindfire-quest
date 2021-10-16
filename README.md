@@ -29,12 +29,6 @@ c) Library Used: CV modals on TF or Sagemaker...
 3. Sat View: Text Extraction of company names from the buildings or building entrances signs, potentially for inclined sat view. 
 (Cement factory company_detection from image)
 
-The following solutions are for crowdsourcing company annotations:
-
-4. Google PlusCODES, SearchOn: coordinate numbering system for buildings
-
-5. E.g. via Nantic’s now open sourced lightning dev environment, or similar to Google Captchas...
-
 In sprint 2, we have developed a hybrid of all the above methods. 
 
 ![](https://i.imgur.com/L40UlW5.png)
@@ -65,13 +59,20 @@ Already done and uploaded for over 1bn buildings.
 
 T2 notebook for any object detection algorithm implementation from Tensorflow Hub - [find here](https://github.com/prakharrathi25/mindfire-quest/blob/main/notebooks/T2%20Object%20Detection%20Inference%20and%20TF%20Hub)
 
-- **Step 1:** Open buildings georeferencing notebook as example for the 2/3 of the continent of Africa for building detection and coordinates extraction as well as Github repos for USA&Canada
+* **Step 1:** "[T2 notebook](https://github.com/prakharrathi25/mindfire-quest/blob/main/notebooks/T2%20Object%20Detection%20Inference%20and%20TF%20Hub)" for any object detection algorithm implementation from TenserFlow Hub. 
+“Open buildings region notebook” as example for the 2/3 of the continent of Africa for building detection and coordinates extraction as well as Github repos for USA & Canada 
 
-- **Step 2:** white label phase CLIP: notebook for identifying potential company candidates 
-- **Step 3:**  White-Label phase:
-Company_detection_from_image notebook: AWS cement factory detection notebook for uniquely identifying llanguage and company from text on satellite or streetview images on company buildings, entrance or outdoor objects, such as branded trucks or containers on ships or harbors.
-- **Step 4:** GEE - [download region polygons](https://code.earthengine.google.com/?scriptPath=Examples:Datasets/GOOGLE_Research_open-buildings_v1_polygons)
+* **Step 2**
+["CLIP Cement Factory Beyond Tags - Semantic Search on images with OpenAI notebook"](https://github.com/prakharrathi25/mindfire-quest/blob/main/notebooks/Cement%20Factory%20Beyond%20Tags%20-%20Semantic%20Search%20on%20images%20with%20OpenAI%20CLIP%20.ipynb) : notebook for identifying potential company candidates 
 
+* **Step 3**
+"[Company_detection_from_image notebook](https://github.com/prakharrathi25/mindfire-quest/blob/main/notebooks/Company_detection_from_image.ipynb)": AWS cement factory detection notebook for uniquely identifying language and company from text on satellite or streetview images on company buildings, entrance or outdoor objects, such as branded trucks or containers on ships or harbors.
+
+* **Step 4** 
+GEE link - open buildings- [here](https://code.earthengine.google.com/?scriptPath=Examples:Datasets/GOOGLE_Research_open-buildings_v1_polygons)
+
+* **Step 5**
+Address normalisation fuzzy logic tool.
 
 #### Happy Path 
 
