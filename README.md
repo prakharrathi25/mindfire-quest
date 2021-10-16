@@ -29,6 +29,8 @@ c) Library Used: CV modals on TF or Sagemaker...
 3. Sat View: Text Extraction of company names from the buildings or building entrances signs, potentially for inclined sat view. 
 (Cement factory company_detection from image)
 
+4. Google PlusCodes, SearchOnL coordinate numbering system for buildings. 
+
 In sprint 2, we have developed a hybrid of all the above methods. 
 
 ![](https://i.imgur.com/L40UlW5.png)
@@ -78,13 +80,15 @@ Address normalisation fuzzy logic tool.
 
 Given the availability of software and resources, this is the path we think can make our tasks easier. 
 
-1. Top View: GoogleMUM - 
+Step 1: GOOGLE MUM to be released soon
 
-2. Ground view: Text and/or logo detection
+Step 2: "CLIP Cement Factory Beyond Tags - Semantic Search on images with OpenAI notebook": notebook for identifying potential company candidates 
 
-3. Geolocation: GEE script for coordinates to street address  or to Plus Codes 
+Step 3: "Company_detection_from_image notebook": AWS cement factory detection notebook for uniquely identifying language and company from text on satellite or streetview images on company buildings, entrance or outdoor objects, such as branded trucks or containers on ships or harbors.
 
-4. Optional addition: Benefits of extension to other Swiss Re departments and use cases	
+Step 4: GEE link - open buildings*
+
+Step 5: Address normalisation fuzzy logic tool
 
 							
 ## Data 
