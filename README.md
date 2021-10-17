@@ -37,7 +37,7 @@ In sprint 2, we have developed a hybrid of all the above methods.
 
 Here's a workflow of what the solution is envisioned to look like:- 
 
-![](https://i.imgur.com/aKmy6Pr.png)
+![](https://i.imgur.com/LEVIs8A.png)
 
 
 ### 🎯 Ways to Implement
