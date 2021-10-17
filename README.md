@@ -93,13 +93,13 @@ Step 5: Address normalisation fuzzy logic tool
 							
 ## Data 
 
-The data has been collected from the [DnB website](https://www.dnb.com/). It scraped using a web scraper and the data can be found in folder [`data > dnb-single-page.csv`](https://github.com/prakharrathi25/mindfire-quest/tree/main/data). 
+The data has been collected from the [DnB website](https://www.dnb.com/). It scraped using a web scraper and the data can be found in folder [`data > dnb-single-page.csv`](https://github.com/prakharrathi25/mindfire-quest/tree/main/data). The data is a snapshot of the DnB database from a single page. Overall, the database has over 3000 entries. 
 
 We collected data of a variety of companies: 
 
-![](logos\Coop.png)
-![](logos\heidelbergcement030811.jpg)
-![](logos\Walmart_logo_blue.png)
+![](.\logos\Coop.png)
+![](.\logos\heidelbergcement030811.jpg)
+![](.\logos\Walmart_logo_blue.png)
 
 
 ## ⚒️ Contributors 
